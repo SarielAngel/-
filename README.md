@@ -1,9 +1,10 @@
 # -内容太少，直接看描述文件就行。
+PS:请自行判断编码集
 
     public static void main(String[] args) {
         String str = "我是谁 who am I";
-        String x2 = stringToX2(str);
-        System.out.println("转化为二进制字符串为：" + x2);
+        String binary = stringToX2(str);
+        System.out.println("转化为二进制字符串为：" + binary);
         String resultStr = null;
         try {
             resultStr = x2ToString(x2);
